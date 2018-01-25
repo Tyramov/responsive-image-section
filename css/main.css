@@ -11,3 +11,120 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  font-family: sans-serif;
+  margin: 0;
+  color: #000;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  background-color: #e2e2e2;
+  vertical-align: middle;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+.content {
+  display: inline-block;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 2rem 1rem;
+  padding-right: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.image {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-flex{
+  width: 100%;
+  max-width: 500px;
+}
+
+.buynow-button {
+  text-decoration: none;
+  color: #e2e2e2;
+  background-color: #555;
+  padding: 0.75em 0.5em ;
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+.buynow-button:hover {
+  background-color: #000;
+}
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .img-flex{
+    max-width: 35%;
+  }
+  .content {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .img-flex {
+    max-width: 350px;
+  }
+
+  .content {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .img-flex {
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+
+  .content {
+    max-width: 450px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .img-flex {
+    max-width: 600px;
+  }
+}
